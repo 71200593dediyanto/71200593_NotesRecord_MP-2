@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/black">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_notes"
@@ -11,7 +12,8 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:layout_margin="11dp"
-        app:cardElevation="7dp">
+        app:cardElevation="7dp"
+        android:background="@color/black">
 
         <LinearLayout
             android:layout_width="match_parent"
